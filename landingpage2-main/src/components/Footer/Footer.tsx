@@ -26,6 +26,7 @@ export default function MyFooter() {
   const handleCancel = () => {
     setIsModalVisible(false)
   }
+  
   return (
     <MyLayout>
       <div className="xl:px-[150px] lg:px-[40px] pt-[30px] pb-[60px] px-4">
